@@ -7,9 +7,9 @@ public class CameraLab3ControllerBG3 : MonoBehaviour {
     public Transform player;
     public Transform backgroundMountain;
     private Camera camera;
-    public float minFieldOfView = 10f;
-    public float maxFieldOfView = 90f;
-    public float sensitivityFieldOfView = 5f;
+    public float minZoom;
+    public float maxZoom;
+    public float zoomSensitivity;
 
     // Use this for initialization
     void Start()
@@ -25,15 +25,15 @@ public class CameraLab3ControllerBG3 : MonoBehaviour {
         {
             Debug.Log("Going right, zoom in");
             float fieldOfView = camera.fieldOfView;
-            fieldOfView -= 0.5f;
-            camera.fieldOfView = Mathf.Clamp(fieldOfView, minFieldOfView, maxFieldOfView);
+            fieldOfView -= zoomSensitivity;
+            camera.fieldOfView = Mathf.Clamp(fieldOfView, minZoom, maxZoom);
         }
         else if (player.GetComponent<Rigidbody2D>().velocity.x < 0)
         {
             Debug.Log("Going left, zoom out");
             float fieldOfView = camera.fieldOfView;
-            fieldOfView += 0.5f;
-            camera.fieldOfView = Mathf.Clamp(fieldOfView, minFieldOfView, maxFieldOfView);
+            fieldOfView += zoomSensitivity;
+            camera.fieldOfView = Mathf.Clamp(fieldOfView, minZoom, maxZoom);
         }
     }
 }

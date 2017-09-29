@@ -16,6 +16,7 @@ public class CameraLab3ControllerBG1 : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        camTrans.GetComponent<Camera>().fieldOfView = 70;
         camTrans.position = new Vector3(player.position.x, player.position.y, camTrans.position.z);
     }
 }

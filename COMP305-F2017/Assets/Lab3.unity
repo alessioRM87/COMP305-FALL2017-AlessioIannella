@@ -225,7 +225,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 394138041}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -11.9}
+  m_LocalPosition: {x: 9.31, y: 0, z: -6.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -256,6 +256,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 768599837}
   backgroundMountain: {fileID: 1120481405}
+  minZoom: 10
+  maxZoom: 100
+  zoomSensitivity: 0.5
 --- !u!114 &394138049
 MonoBehaviour:
   m_ObjectHideFlags: 0
