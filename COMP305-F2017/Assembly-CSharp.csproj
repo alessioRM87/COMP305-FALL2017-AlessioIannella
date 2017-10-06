@@ -54,6 +54,9 @@
      <Compile Include="Assets\SCRIPTS\CameraLab3ControllerBG1.cs" />
      <Compile Include="Assets\SCRIPTS\CameraLab3ControllerBG2.cs" />
      <Compile Include="Assets\SCRIPTS\CameraLab3ControllerBG3.cs" />
+     <Compile Include="Assets\SCRIPTS\CameraLab4Controller.cs" />
+     <Compile Include="Assets\SCRIPTS\Lab4ExplosionController.cs" />
+     <Compile Include="Assets\SCRIPTS\Lab4TimeBombController.cs" />
      <Compile Include="Assets\SCRIPTS\PlayerLab3Controller.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/UNITY/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
