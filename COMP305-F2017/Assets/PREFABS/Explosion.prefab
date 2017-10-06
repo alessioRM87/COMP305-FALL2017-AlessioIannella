@@ -92,7 +92,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosionRadius: 100
-  explosionForce: 50
+  explosionForce: 10
   animationTime: 0.8
 --- !u!212 &212289175355386506
 SpriteRenderer:
