@@ -91,7 +91,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69e9f2baf76cf2b46a0e52b4b49a0ca8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionRadius: 100
+  explosionRadius: 3
   explosionForce: 10
   animationTime: 0.8
 --- !u!212 &212289175355386506

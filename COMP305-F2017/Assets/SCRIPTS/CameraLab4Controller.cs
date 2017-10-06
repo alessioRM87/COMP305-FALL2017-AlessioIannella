@@ -32,6 +32,16 @@ public class CameraLab4Controller : MonoBehaviour {
             spawnatclick(position);
 
         }
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+        {
+            Vector3 newPosition = new Vector3(this.transform.position.x - 1, this.transform.position.y, this.transform.position.z);
+            this.transform.position = newPosition;
+        }
+        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+        {
+            Vector3 newPosition = new Vector3(this.transform.position.x + 1, this.transform.position.y, this.transform.position.z);
+            this.transform.position = newPosition;
+        }
 
     }
 
