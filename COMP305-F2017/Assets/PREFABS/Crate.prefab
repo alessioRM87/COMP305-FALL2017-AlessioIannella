@@ -20,10 +20,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4944146817828552}
   - component: {fileID: 212548144773547914}
-  - component: {fileID: 50439104749033912}
   - component: {fileID: 61574786685554010}
+  - component: {fileID: 50509226169723754}
   m_Layer: 0
-  m_Name: Crate
+  m_Name: Box
   m_TagString: Crate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42,7 +42,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &50439104749033912
+--- !u!50 &50509226169723754
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 1
@@ -56,7 +56,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 5
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -71,7 +71,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

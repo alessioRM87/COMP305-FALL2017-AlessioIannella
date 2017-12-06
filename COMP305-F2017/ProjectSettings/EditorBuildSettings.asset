@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Lab5.unity
+    guid: 835e642542dc02644b867c6b8fe56289
+  - enabled: 1
+    path: Assets/Lab5GameOver.unity
+    guid: 1f575d899b9351140b09f33355aa70ec
