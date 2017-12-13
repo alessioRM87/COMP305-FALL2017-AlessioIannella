@@ -64,6 +64,7 @@
      <Compile Include="Assets\SCRIPTS\Lab5Timer.cs" />
      <Compile Include="Assets\SCRIPTS\Lab7CameraController.cs" />
      <Compile Include="Assets\SCRIPTS\Lab7PlayerController.cs" />
+     <Compile Include="Assets\SCRIPTS\Lab7PositionController.cs" />
      <Compile Include="Assets\SCRIPTS\PlayerLab3Controller.cs" />
      <Compile Include="Assets\SCRIPTS\test.cs" />
  <Reference Include="UnityEngine.UI">
