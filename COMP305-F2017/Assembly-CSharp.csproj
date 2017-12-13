@@ -62,7 +62,10 @@
      <Compile Include="Assets\SCRIPTS\Lab5ItemCollector.cs" />
      <Compile Include="Assets\SCRIPTS\Lab5PlayerController.cs" />
      <Compile Include="Assets\SCRIPTS\Lab5Timer.cs" />
+     <Compile Include="Assets\SCRIPTS\Lab7CameraController.cs" />
+     <Compile Include="Assets\SCRIPTS\Lab7PlayerController.cs" />
      <Compile Include="Assets\SCRIPTS\PlayerLab3Controller.cs" />
+     <Compile Include="Assets\SCRIPTS\test.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/UNITY/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

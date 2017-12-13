@@ -1,14 +1,21 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SCRIPTS\Lab5ItemCollector.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SCRIPTS\test.cs">
     <Files>
       <File FileName="Assets\SCRIPTS\Lab5GameOverController.cs" Line="1" Column="1" />
       <File FileName="Assets\SCRIPTS\Lab5PlayerController.cs" Line="1" Column="1" />
-      <File FileName="Assets\SCRIPTS\Lab5ItemCollector.cs" Line="20" Column="20" />
+      <File FileName="Assets\SCRIPTS\Lab5ItemCollector.cs" Line="1" Column="1" />
+      <File FileName="Assets\SCRIPTS\PlayerLab3Controller.cs" Line="1" Column="1" />
+      <File FileName="Assets\SCRIPTS\Lab7PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets\SCRIPTS\CameraLab3ControllerBG1.cs" Line="1" Column="1" />
+      <File FileName="Assets\SCRIPTS\Lab7CameraController.cs" Line="1" Column="1" />
+      <File FileName="Assets\SCRIPTS\test.cs" Line="19" Column="31" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="D:\CENTENNIAL_COLLEGE_COURSES\FALL_2017\COMP_305_GAME\COMP305-FALL2017-AlessioIannella\COMP305-F2017\Assets\SCRIPTS\Lab7PlayerController.cs" line="35" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
