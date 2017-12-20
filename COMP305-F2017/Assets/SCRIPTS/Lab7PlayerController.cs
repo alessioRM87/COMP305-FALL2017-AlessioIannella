@@ -17,6 +17,8 @@ public class Lab7PlayerController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
+
+			
 	}
 
 	// Use this for physics

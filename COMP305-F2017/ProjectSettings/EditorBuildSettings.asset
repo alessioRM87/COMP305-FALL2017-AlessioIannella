@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Lab5GameOver.unity
     guid: 1f575d899b9351140b09f33355aa70ec
-  - enabled: 1
+  - enabled: 0
     path: Assets/Lab6.unity
     guid: 0ed3aaa1d1f527043a638376f9c1d3e8
+  - enabled: 1
+    path: Assets/Lab7.unity
+    guid: cc4ba8002be0cc84291ed3e8990ed34e
